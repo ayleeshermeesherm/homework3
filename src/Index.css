@@ -1,0 +1,19 @@
+.wrapper {
+    width: 80%;
+    border: 0px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    text-align: center;
+    font-family: monospace;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 40px;
+}
