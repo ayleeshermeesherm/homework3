@@ -6,7 +6,10 @@ function LoginError() {
     return (
         <div>
             <h1>Login Unsuccessful</h1>
-            <button className="blue" ></button>
+            <p> Please try again</p>
+            <Link to="/">
+            <Button color="green" text="Sign In" />
+            </Link>
 
             
             

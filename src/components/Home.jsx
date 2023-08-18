@@ -22,7 +22,7 @@ function Home() {
     <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
     <input type="password" className="form-control" id="exampleInputPassword1" />
   </div>
-  <Link to="loginsuccess">
+  <Link to="loginerror">
   <Button color="blue" text="Sign In"/>
   </Link>
 </form>

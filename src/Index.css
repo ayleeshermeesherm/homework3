@@ -38,4 +38,11 @@ button.blue{
     background-color: #008ae6 ;
     color: whitesmoke;
 }
+button.pink {
+    background-color: deeppink;
+    color: whitesmoke;
+}
+button.green{
+    background-color: chartreuse;
+}
 
