@@ -1,12 +1,16 @@
+
 import React from 'react'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import Button from './Button';
+
 
 function Home() {
+    const navigate = useNavigate();
     return (
         <>
         <h1> USER LOGIN PAGE: </h1>
-        <Link to="loginerror"> Click here for the about page</Link>
-        <Link to="loginsuccess">Click here to view our contact page</Link>
+        
+       
 
         <form className='wrapper'>
   <div className="mb-3">
@@ -18,9 +22,12 @@ function Home() {
     <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
     <input type="password" className="form-control" id="exampleInputPassword1" />
   </div>
-  <button type="submit" className="btn btn-primary">Submit</button>
+  <Link to="loginsuccess">
+  <Button color="blue" text="Sign In"/>
+  </Link>
 </form>
-        
+
+    
 </>
     )
 }
