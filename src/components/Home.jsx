@@ -8,7 +8,7 @@ function Home() {
     const navigate = useNavigate();
     return (
         <>
-        <h1> USER LOGIN PAGE: </h1>
+        <h1> USER LOGIN PAGE </h1>
         
        
 
